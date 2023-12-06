@@ -1,0 +1,260 @@
+<mxfile host="app.diagrams.net" modified="2023-12-06T15:34:31.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XIXjsb-2jDVVa5xTbDvk" version="22.1.6" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2731" dy="1427" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <object label="SSDLC Flow" id="L1">
+          <mxCell style="" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        </object>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-28" value="Test" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#3399FF;fontColor=#ffffff;shadow=1;glass=1;" parent="L1" vertex="1">
+          <mxGeometry x="1290" y="226" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-9" value="Plan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-0" target="r__18JjRtYuq4CfsAnyR-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Product &lt;br&gt;Backlog" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;Requirements and acceptance criteria&lt;/li&gt;&#xa;    &lt;li&gt;Test coverage / Level of testing&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Target architecture requirements&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Application Security requirements&lt;/b&gt;&lt;/li&gt;    &#xa;    &lt;li&gt;Feature toggle requirements&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Licensing and Compliance needs&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Budget and Cost impact&lt;/li&gt;&#xa;&lt;/ul&gt;" placeholders="1" id="r__18JjRtYuq4CfsAnyR-0">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Backlog.svg;" parent="L1" vertex="1">
+            <mxGeometry x="230" y="296" width="68" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-2" value="Teans" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#66B2FF;gradientColor=none;" parent="L1" vertex="1">
+          <mxGeometry x="240" y="471" width="66" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="L1" vertex="1">
+          <mxGeometry x="268" y="606" width="10" height="10" as="geometry" />
+        </mxCell>
+        <UserObject label="Establish Team Around Idea" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Dialog with Finance and Security teams&lt;/b&gt;&lt;/li&gt;&#xa;        &lt;ul&gt;&#xa;            &lt;li&gt;&lt;b&gt;Maintain continuous dialog with relevant teams&lt;/b&gt;&lt;/li&gt;&#xa;        &lt;/ul&gt;&#xa;    &lt;li&gt;Minimal business case and new application information&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-4">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-3" target="r__18JjRtYuq4CfsAnyR-2" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-5" value="Refine" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-2" target="r__18JjRtYuq4CfsAnyR-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-6" value="Refine" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.803;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;jumpStyle=arc;" parent="L1" source="r__18JjRtYuq4CfsAnyR-0" target="r__18JjRtYuq4CfsAnyR-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-16" value="Implement&lt;br&gt;Changes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-8" target="r__18JjRtYuq4CfsAnyR-13" edge="1">
+          <mxGeometry x="0.0196" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Implementation&lt;br&gt;Backlog" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;Triage and prioritise User Story / Tech Story / Bug&lt;/li&gt;&#xa;    &lt;ul&gt;&#xa;        &lt;li&gt;&lt;b&gt;Includes guidance from Security and Sales&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-8">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Backlog.svg;" parent="L1" vertex="1">
+            <mxGeometry x="400" y="296" width="68" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-10" value="Sketched Designs" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#007FFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.script;" parent="L1" vertex="1">
+          <mxGeometry x="246.5" y="220" width="53" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-18" value="Review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-12" target="r__18JjRtYuq4CfsAnyR-14" edge="1">
+          <mxGeometry x="-0.3162" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-bold-vol-3-1/256/git-pull-request-duotone-128.png" parent="L1" vertex="1">
+          <mxGeometry x="670" y="214" width="50" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Pull &lt;br&gt;Request" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Scan source to ensure there are no secrets&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Follow PR guidelines&lt;/li&gt;&#xa;    &lt;li&gt;Pass all CI gates including test coverage, code quality and review of technical debt&lt;/li&gt;&#xa;    &lt;ul&gt;&#xa;        &lt;li&gt;Includes successfully passing unit, component, API and end-to-end tests in all relevant environments&lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Complete static and dynamic code analysis&lt;/b&gt;&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-17">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-13" target="r__18JjRtYuq4CfsAnyR-12" edge="1">
+            <mxGeometry x="0.3043" y="5" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-13" value="Short Lived&lt;br&gt;Feature Branch" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/git-branch-128.png" parent="L1" vertex="1">
+          <mxGeometry x="570" y="301" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-14" target="r__18JjRtYuq4CfsAnyR-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-14" value="Main (Trunk)" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/git-branch-128.png" parent="L1" vertex="1">
+          <mxGeometry x="777" y="301" width="50" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Review Team" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Review by at least 2 people, following 4-eyes principle&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Ensure User Story / Tech Story / Bug meets Acceptance criteria and security requirements&lt;/li&gt;&#xa;    &lt;li&gt;Ensure the change is reviewed by Product team where necessary&lt;/li&gt;&#xa;    &lt;li&gt;Check necessary test coverage has been added&lt;/li&gt;&#xa;    &lt;li&gt;Ensure PR (change) is as small as possible small PR (change) as reasonable and possible&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Change follows licensing and compliance requirements&lt;/b&gt;&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-15">
+          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#66B2FF;gradientColor=none;" parent="L1" vertex="1">
+            <mxGeometry x="654" y="125" width="66" height="63" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CI + Artifact" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;Version the artifact(s) appropriately&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform static and dynamic code analysis and vulnerability scanning&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Promote packages/images across environments&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Scan images&lt;/b&gt;&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-21">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" parent="L1" vertex="1">
+            <mxGeometry x="950" y="301" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CD to Deploy" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;Promote container images / packages&lt;/li&gt;&#xa;    &lt;li&gt;Deploy artifact(s) - changes and configuration&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-22">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" parent="L1" vertex="1">
+            <mxGeometry x="1110" y="301" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-21" target="r__18JjRtYuq4CfsAnyR-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-25" target="r__18JjRtYuq4CfsAnyR-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Test" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform Infrastructure changes such as DNS, WAF security etc&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Enable feature toggle to the scope desired&lt;/li&gt;&#xa;    &lt;li&gt;Run applicable automated e2e tests (smoke, regression, integration)&lt;/li&gt;&#xa;    &lt;li&gt;Perform Manual exploratory testing&lt;/li&gt;&#xa;&lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=none;fontColor=#ffffff;" parent="L1" vertex="1">
+            <mxGeometry x="1300" y="241" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-26" target="r__18JjRtYuq4CfsAnyR-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Staging" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform Infrastructure changes such as DNS, WAF security etc&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Run applicable automated e2e tests (smoke, regression, integration, performance, load tests)&lt;/li&gt;&#xa;    &lt;li&gt;Perform Manual exploratory testing&lt;/li&gt;&#xa;    &lt;li&gt;Perform Budget and Cost impact monitoring&lt;/li&gt;&#xa;    &lt;li&gt;Enable feature toggle to the scope desired&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform nightly OWASP top 10 Pen Test (automated, future desire)&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Perform vulnerability scanning&lt;/li&gt;&#xa;    &lt;li&gt;Follow chaos monkey practice&lt;/li&gt;&#xa;  &lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-26">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=none;fontColor=#ffffff;" parent="L1" vertex="1">
+            <mxGeometry x="1300" y="316" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Prod" tooltip="&lt;ul&gt;&#xa;    &lt;li&gt;&lt;b&gt;Record the deployment in change control registry (CD pipeline)&lt;/b&gt;&lt;/li&gt; &#xa;    &lt;li&gt;&lt;b&gt;Perform Infrastructure changes such as DNS, WAF security etc&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Run applicable automated e2e smoke tests to validate good deployment&lt;/li&gt;&#xa;    &lt;li&gt;Update release notes and product documentation updated&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform release pen test / annual pen test&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Enable feature toggle to the scope desired&lt;/li&gt;&#xa;    &lt;li&gt;&lt;b&gt;Perform vulnerability scanning&lt;/b&gt;&lt;/li&gt;&#xa;    &lt;li&gt;Perform budget and Cost impact monitoring&lt;/li&gt;&#xa;    &lt;li&gt;Follow chaos Monkey practice&lt;/li&gt;&#xa;  &lt;/ul&gt;" id="r__18JjRtYuq4CfsAnyR-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=none;fontColor=#ffffff;" parent="L1" vertex="1">
+            <mxGeometry x="1300" y="386" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="L1" source="r__18JjRtYuq4CfsAnyR-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-32" value="Telemetry, Insights from all environments&lt;br&gt;Dashboards and Alerts from Staging and Production" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.688;entryY=1.072;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;jumpStyle=arc;" parent="L1" source="r__18JjRtYuq4CfsAnyR-28" target="r__18JjRtYuq4CfsAnyR-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="456" />
+              <mxPoint x="277" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="See SSDLC Commentary" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;: {&quot;cells&quot;: [&quot;L2&quot;]}}]}" id="r__18JjRtYuq4CfsAnyR-34">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#999999;fillColor=#999999;fontColor=#FFFFFF;" parent="L1" vertex="1">
+            <mxGeometry x="590" y="-50" width="217" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-58" value="&lt;ul&gt;&lt;li&gt;The purpose of SSDLC is to ensure security is considered and security best practices are followed at each stage in the software development life cycle.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#3399FF;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;glass=0;shadow=1;" parent="L1" vertex="1">
+          <mxGeometry x="490" y="-260" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-59" value="&lt;font color=&quot;#ffffff&quot;&gt;Goal&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;fontStyle=1;shadow=1;" parent="L1" vertex="1">
+          <mxGeometry x="390" y="-260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-60" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;All changes (application and infrastructure) should be performed using Infrastructure as Code&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;All changes should be reviewed using 4-eyes principle&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Teams should use feature toggles to isolate deployment changes from release&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Follow security best practices at each stage in the SDLC life cycle&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Trunk based development and branching strategy with short lived feature branches&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFFFFF;fontColor=#0066CC;strokeColor=#99CCFF;dashed=1;dashPattern=1 1;strokeWidth=0.5;shadow=1;glass=0;" parent="L1" vertex="1">
+          <mxGeometry x="490" y="-200" width="540" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-61" value="Core Concepts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#99CCFF;fontStyle=1;fontColor=#0066CC;dashed=1;dashPattern=1 1;strokeWidth=0.5;shadow=1;" parent="L1" vertex="1">
+          <mxGeometry x="390" y="-200" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-63" value="&lt;font color=&quot;#cccccc&quot;&gt;Diagram Author: Venugopal Panchamukhi&lt;br&gt;Version: 1.0&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="L1" vertex="1">
+          <mxGeometry x="60" y="-260" width="230" height="30" as="geometry" />
+        </mxCell>
+        <object label="SSDLC Commentary" id="L2">
+          <mxCell style="" parent="WIyWlLk6GJQsqaUBKTNV-0" visible="0" />
+        </object>
+        <UserObject label="Hide SSDLC Commentary" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;: {&quot;cells&quot;: [&quot;L2&quot;]}}]}" id="r__18JjRtYuq4CfsAnyR-36">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=none;" parent="L2" vertex="1">
+            <mxGeometry x="590" y="-50" width="216" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-37" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li data-list=&quot;bullet&quot;&gt;Requirements and acceptance criteria&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Test coverage / Level of testing&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Security requirements / Impact of Change&lt;/strong&gt;&lt;/li&gt;&lt;ul&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;&lt;strong&gt;involving App Security when questions arise&lt;/strong&gt;&lt;/li&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;&lt;strong&gt;threat modeling where applicable&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Application target architecture&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Feature toggle requirement&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Licensing and Compliance needs&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Budget and Cost impact&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="-240" y="210" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-38" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Finance and InfoSec headsup&lt;/strong&gt;&lt;/li&gt;&lt;ul&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;&lt;strong&gt;&lt;em&gt;continuous dialog vs meeting at some point?&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;Minimal business case and new application information&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;shadow=1;opacity=80;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="-240" y="530" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;" parent="L2" target="r__18JjRtYuq4CfsAnyR-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="570" as="sourcePoint" />
+            <mxPoint x="320" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-41" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;" parent="L2" target="r__18JjRtYuq4CfsAnyR-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="310" as="sourcePoint" />
+            <mxPoint x="150" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-42" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;User Story / Tech Story / Bug &lt;strong&gt;triage and prioritization&lt;/strong&gt;&lt;/li&gt;&lt;ul&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;&lt;strong&gt;incl guidance from EM on PE / InfoSec priorities&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="251" y="630" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;" parent="L2" target="r__18JjRtYuq4CfsAnyR-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="150" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-44" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;No secrets in the source, validated by Secret Scanner&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;PR guideline followed&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Passes all CI gates incl builds, tests pass and coverage is maintained or increased, code quality standard are met, technical debt is maintained&lt;/li&gt;&lt;ul&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;ideally all unit, component, api and e2e tests  reasonable and where necessary against isolated mini environment&lt;/li&gt;&lt;/ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Veracode static code analysis on changed code (if possible)&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="170" y="10" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-45" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="L2" target="r__18JjRtYuq4CfsAnyR-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="sourcePoint" />
+            <mxPoint x="620" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-46" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Reviewed by at least 1 fellow engineer (4-eye principle)&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;User Story / Tech Story / Bug meets Acceptance criteria and security requirements&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Where necessary, reviewed by product, design and Exploratory tested (e.g. by running locally, demoing or demo video, running temp env in PR etc)&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Necessary test coverage has been added&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;As small PR (change) as reasonable and possible&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Change follows licensing and compliance requirements&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="840" y="10" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-47" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="L2" source="r__18JjRtYuq4CfsAnyR-15" target="r__18JjRtYuq4CfsAnyR-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="120" as="sourcePoint" />
+            <mxPoint x="700" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="157" />
+              <mxPoint x="780" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-48" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li data-list=&quot;bullet&quot;&gt;Building and versioning of artifact(s)&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Veracode static code analysis and vulnerability scanning&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Generic package / images that can be promoted  between environments agnostic of environment configuration&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Image scanning (future desire)&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="810" y="570" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;" parent="L2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="370" as="sourcePoint" />
+            <mxPoint x="970" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-50" value="&lt;div&gt;&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;Promotion of container images / package&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Deployment of artifact(s) - changes and configuration&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="996" y="470" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=0.421;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" parent="L2" target="r__18JjRtYuq4CfsAnyR-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="370" as="sourcePoint" />
+            <mxPoint x="1130" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-52" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;PE make relevant Akamai WAF config.&lt;/strong&gt;&lt;/li&gt;&lt;ul&gt;&lt;li class=&quot;ql-indent-1&quot; data-list=&quot;bullet&quot;&gt;&lt;strong&gt;team PR and PE approval?&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;Enable feature toggle to the scope desired&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Run applicable automated e2e tests (smoke, regression, integration)&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Manual exploratory testing&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="1490" y="50" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-53" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="L2" target="r__18JjRtYuq4CfsAnyR-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="240" as="sourcePoint" />
+            <mxPoint x="1140" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-54" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Record the deployment in change control registry (CD pipeline) &lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;PE make relevant Akamai WAF config.&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Run applicable automated e2e smoke tests to validate good deployment&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Release notes and product documentation updated&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;1st release pen test / annual pen test&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Enable feature toggle to the scope desired&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Vulnerability scanning&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Budget and Cost impact monitoring&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Chaos Monkey (desired in future)&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="1490" y="520" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-55" value="&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;PE make relevant Akamai WAF config.&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Run applicable automated e2e tests (smoke, regression, integration, performance, load tests)&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Manual exploratory testing&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Budget and Cost impact monitoring&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Enable feature toggle to the scope desired&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Nightly OWASP top 10 Pen Test (automated, future desire&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;strong&gt;Vulnerability scanning&lt;/strong&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;Chaos Monkey (desired in future)&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;glass=1;strokeColor=#FFB570;fillColor=#FFB570;treeFolding=0;treeMoving=0;backgroundOutline=0;snapToPoint=0;noLabel=0;disableMultiStroke=0;disableMultiStrokeFill=0;enumerate=0;opacity=80;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="L2" vertex="1">
+          <mxGeometry x="1490" y="260" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-56" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=-0.006;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" parent="L2" target="r__18JjRtYuq4CfsAnyR-54" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="420" as="sourcePoint" />
+            <mxPoint x="1500" y="115" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="627" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r__18JjRtYuq4CfsAnyR-57" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;flowAnimation=1;strokeColor=#FFB570;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="L2" target="r__18JjRtYuq4CfsAnyR-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="340" as="sourcePoint" />
+            <mxPoint x="980" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
